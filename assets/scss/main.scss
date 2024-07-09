@@ -1,20 +1,22 @@
-@import 'abstracts/variables',
-'abstracts/mixins';
+@import 'abstract/variables';
+@import 'abstract/mixins';
 
-@import 'base/reset',
-'base/base',
-'base/typography';
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
 
-@import 'layout/header',
-'layout/form-login.scss',
-'layout/form-registro.scss',
-'layout/main.scss', 'layout/newsletter', 'layout/footer';
+@import 'layout/header';
+@import 'layout/form-login';
+@import 'layout/form-registro';
+@import 'layout/main'; 
+@import 'layout/newsletter'; 
+@import 'layout/footer';
 
-@import 'components/logos',
-'components/buttons',
-'components/inputs',
-'components/cards',
-'components/listas';
+@import 'components/logos';
+@import 'components/buttons';
+@import 'components/inputs';
+@import 'components/cards';
+@import 'components/listas';
 
 @import 'pages/home';
 @import 'pages/post_bootstrap';
